@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
     scan_table_scan(&scan_table, input, len);
     // You may uncomment this if you need to debug the scanner 
     // but leave it commented for "grade test" since scanner output
-    // is not part of the expected output for lab03
+    // is not part of the expected output for lab06
     // scan_table_print(&scan_table);
 
     parse_table_init(&parse_table);
