@@ -10,8 +10,8 @@ int main(int argc, char **argv) {
     int len;
 
     if ((argc != 3) || (strncmp(argv[1], "-e", SCAN_TOKEN_LEN) != 0)) {
-        printf("usage: ./lab03 -e \"expr\"\n");
-        printf("  example: ./lab03 -e \"1 + 2\"\n");
+        printf("usage: ./lab06 -e \"expr\"\n");
+        printf("  example: ./lab06 -e \"1 + 2\"\n");
         exit(-1);
     }
 
